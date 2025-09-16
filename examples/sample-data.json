@@ -1,0 +1,17 @@
+{
+  "name": "John Doe",
+  "items": [
+    {
+      "name": "Coffee",
+      "price": 4.50
+    },
+    {
+      "name": "Sandwich",
+      "price": 8.99
+    },
+    {
+      "name": "Cookie",
+      "price": 2.50
+    }
+  ]
+}

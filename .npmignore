@@ -1,0 +1,38 @@
+# Development files
+.git
+.gitignore
+.eslintrc.js
+.vscode/
+.idea/
+
+# Test files
+test/
+tests/
+*.test.js
+*.spec.js
+
+# Coverage reports
+coverage/
+.nyc_output/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Development dependencies (included in devDependencies)
+node_modules/
+
+# Documentation development files
+docs-dev/
+
+# Example files (optional - include if you want examples in the package)
+# examples/

@@ -1,0 +1,18 @@
+{{# Simple greeting template #}}
+Hello {{ name }}!
+
+{{# Loop through items #}}
+{{ if items }}
+Your items:
+{{ for item in items }}
+  - {{ item.name }}: ${{ item.price }}
+{{ end }}
+
+Total: ${{ items | array.map "price" | array.sum }}
+{{ else }}
+No items in your list.
+{{ end }}
+
+{{# Footer #}}
+---
+Generated on {{ date.now }}

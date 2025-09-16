@@ -1,0 +1,47 @@
+{
+  "name": "@loro/cli",
+  "version": "1.0.0",
+  "description": "Command-line interface for Loro Template transformation service",
+  "main": "src/index.js",
+  "bin": {
+    "loro": "./bin/loro.js"
+  },
+  "scripts": {
+    "test": "jest",
+    "build": "npm run lint",
+    "lint": "eslint src/**/*.js"
+  },
+  "keywords": [
+    "loro",
+    "templates",
+    "scriban",
+    "cli",
+    "transformation"
+  ],
+  "author": "alan@lorotempates.com>",
+  "homepage": "https://lorotemplates.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kirwana/loro-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kirwana/loro-cli/issues"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.0",
+    "chalk": "^4.1.2",
+    "commander": "^11.1.0",
+    "dotenv": "^16.3.1",
+    "inquirer": "^9.2.12",
+    "ora": "^5.4.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.54.0",
+    "jest": "^29.7.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "preferGlobal": true
+}
